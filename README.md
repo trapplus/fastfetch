@@ -1,36 +1,53 @@
-# Fastfetch | Trapplus
+# Fastfetch Configs | Trapplus
 
-<h3 align="center">
-Welcome to my fastfetch config presets repo.
-</h3>
+### Custom Fastfetch configuration presets used in my personal shell dots.
 
-[Fastfetch](https://github.com/fastfetch-cli/fastfetch) is a tool for fetching system information and displaying them in a pretty way. 
-In this repo, I collect my config files that I designed for my [Arch Linux](https://archlinux.org/) [Hyprland](https://github.com/hyprwm/Hyprland) rice. 
-Feel free to copy files and modify them or clone the complete repository.
+[Fastfetch](https://github.com/fastfetch-cli/fastfetch) is a fast and highly customizable system information tool. This repository contains my configuration presets, originally created for an Arch Linux setup with Hyprland. You may freely clone, modify, or integrate them into your own environment.
 
 <p align="center">
   <img src="./screenshots/tiling-mode.png" style="width: 100%;">
 </p>
+<p align="center">
+  <img src="./screenshots/full-screen-mode.png" style="width: 100%;">
+</p>
+## Overview
 
-## Usage
+These configurations are part of my broader shell dotfiles collection and are designed to integrate cleanly with my environment. Presets include minimal, grouped, OS-focused, and full-info layouts.
 
-Clone the repository into ``~/.local/share``
+## Installation
+
+Clone the repository into:
 
 ```sh
 cd ~/.local/share
 git clone https://github.com/LierB/fastfetch
 ```
-and execute your preferred files (e.g. ``groups.jsonc`` or ``minimal.jsonc``) with 
 
-```shell
+## Usage
+
+Execute Fastfetch with any preset included in this repository:
+
+```sh
 fastfetch -c groups
 fastfetch -c os
 fastfetch -c arch
 fastfetch -c full-info
 ```
 
+Or run without specifying a preset:
+
 ```sh
 fastfetch
-# or with additional options e.g.
+```
+
+Add optional parameters if needed:
+
+```sh
 fastfetch --colors-block-range-start 9 --colors-block-width 3
 ```
+
+## Notes
+
+* All configurations use JSONC format.
+* Presets are easily customizable.
+* These configs are included as part of my shell dots ecosystem.
