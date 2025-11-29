@@ -1,10 +1,10 @@
-<h2 align="center">
-Fastfetch | Trapplus
-</h2>
-
 <h3 align="center">
-Welcome to my fastfetch config presets repo.
+Fastfetch | Trapplus
 </h3>
+
+<h4 align="center">
+Welcome to my fastfetch config presets repo.
+</h4>
 
 [Fastfetch](https://github.com/fastfetch-cli/fastfetch) is a tool for fetching system information and displaying them in a pretty way. 
 In this repo, I collect my config files that I designed for my [Arch Linux](https://archlinux.org/) [Hyprland](https://github.com/hyprwm/Hyprland) rice. 
