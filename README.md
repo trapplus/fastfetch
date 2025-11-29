@@ -1,4 +1,6 @@
-# Fastfetch | Trapplus
+<h2 align="center">
+Fastfetch | Trapplus
+</h2>
 
 <h3 align="center">
 Welcome to my fastfetch config presets repo.
