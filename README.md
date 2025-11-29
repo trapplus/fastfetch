@@ -5,11 +5,12 @@
 [Fastfetch](https://github.com/fastfetch-cli/fastfetch) is a fast and highly customizable system information tool. This repository contains my configuration presets, originally created for an Arch Linux setup with Hyprland. You may freely clone, modify, or integrate them into your own environment.
 
 <p align="center">
-  <img src="./screenshots/tiling-mode.png" style="width: 100%;">
+  <img src="./screenshots/floating-mode.png" style="width: 100%;">
 </p>
 <p align="center">
   <img src="./screenshots/full-screen-mode.png" style="width: 100%;">
 </p>
+
 ## Overview
 
 These configurations are part of my broader shell dotfiles collection and are designed to integrate cleanly with my environment. Presets include minimal, grouped, OS-focused, and full-info layouts.
